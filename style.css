@@ -1,0 +1,347 @@
+	.body{
+		background-color: linear-gradient(to right, red , white);
+	}
+
+
+	.header{
+	width:100%;
+	background: linear-gradient(to left, black, white);
+
+	padding-top: 10%;
+
+	height: 5px;
+	
+	
+
+	}
+	.headerContent{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	text-align:center;
+	background-image: url("smartasslogo.jpg");
+	background-repeat:repeat;
+	background-size: 50px 50px; 			
+}
+	.headerContent a img{
+	width:10px;
+	height:144px;
+	margin: 0px;
+	display: block;
+	
+	}
+	.nav {
+	height:50px;
+	background: white;
+	border-color: black;
+	border-width: 25px;
+
+	}
+
+
+	.nav ul {
+	margin:0;
+	padding:0;
+	}
+	.nav ul li {
+	list-style: none;
+	}
+
+	.nav ul li a{
+	text-decoration: none;
+	float: left;	
+	display: block;
+	padding: 10px 10px;
+
+	}
+
+	.jpg{
+	display: flex;
+	font-size:20px;
+	color:black;
+	text-align: center;
+	width: 0%;
+	height: 0%;
+	background-color:yellow;
+	border-radius: 20px;
+	border-color:green;
+	text-align: center;
+	position: relative;
+	margin-right: 300px;
+	margin-top: 0px;
+
+
+
+	}
+
+
+
+	.box{
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-left: 00px;
+	margin-bottom:20px;
+	display:flex;
+	display:inline-block;
+	flex-direction:row;
+	margin-right:auto;
+	border-radius:0px;
+	border-style: solid;
+	text-align: center;
+	border-width: 2px;
+	border-color: black;
+	padding: 30px;		
+	width: 100%;
+	height: auto;
+	background-color: yellow;
+	justify-content: center;
+	box-sizing: border-box;
+	font-size: 16px;
+		}
+
+
+	.box2{
+	margin-right: 0px;
+	margin-left: 0px;
+	display:flex;
+	display:inline-block;
+	flex-direction:row;
+	margin-bottom: 30px;
+	border-radius: 0px;		
+	width: 48%;
+	height: 160px;
+	background-color: yellow;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	}
+
+
+	.box3{
+	margin-top: 10px;		
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 30px;		
+	box-sizing: border-box;
+	border-radius:0px;		
+	width:50%;
+	text-align: center;
+	height: 160px;
+	background:yellow;
+	padding: 10px;
+	justify-content: center;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	float: right;
+	padding:10px;
+	}
+
+
+	.box4{
+
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 30px;
+	box-sizing: border-box;
+	display:flex;
+	display:inline-block;
+	text-align: center;
+	flex-direction:row;
+	border-radius:0px;		
+	width: 100%;
+	height: auto;
+	background:yellow;
+	padding: 10px;
+	justify-content: center;
+	font-size: 16px;
+	margin-bottom: 50px;
+	border-color: black;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding: 10px;
+	margin-bottom: 20px;	
+	}
+
+	.boxbutton{
+		display: flex;
+		display: inline-block;
+		border-radius: 4px;
+		color: white;
+		border-style: solid;
+		border-width: 2px;
+		padding: 2px;
+		width: 100%;
+		text-align: center;
+		background-color: black;
+		text-decoration: none;
+
+
+	}
+
+	.box2button{
+	display: flex;
+	display:inline-block;
+	border-radius: 4px;
+	color: white;
+	border-style: solid;
+	text-align: center;
+	border-width: 2px;
+	padding: 3px;
+	width: 100%;
+	background-color: black;
+	text-decoration: none;			
+	}
+
+	.box3button{		
+	display: flex;
+	display:inline-block;
+	border-radius: 4px;
+	color: white;
+	border-style: solid;
+	text-align: center;
+	background-color: black;
+	border-width: 2px;
+	padding: 3px;
+	width:100%;
+	text-decoration: none;
+
+	}
+
+	.box4button{		
+	display: flex;
+	display:inline-block;
+	/*box-sizing: block;*/
+	border-radius: 4px;
+	color: white;
+	border-style: solid;
+	text-align: center;
+	border-width: 2px;
+	padding: 3px;
+	width:100%;
+	background-color: black;
+	text-decoration: none;
+
+	}
+
+	.listbutton{
+	display: flex;
+	display: inline-block;
+	box-sizing:border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 20%;
+	margin-top: 20px;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding-left::
+	 100px;
+
+	}
+
+
+	.list{
+
+
+	margin-top: 30px;
+	display:flex;
+	flex-direction:row;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	padding: 10px;
+	justify-content: center;
+	font-size: 16px;
+	box-sizing: border-box;			
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;		
+	margin-bottom: 5px;
+	margin-right: 200px;
+	}	
+	.table{
+	display:flex;
+	flex-direction:row;
+	margin-right:auto;
+	margin-left:auto;
+	width: 100%;
+	height: 140px;
+	background:white;
+	border: 0;
+	justify-content: center;
+	color: white;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;	
+	}
+	.table{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	margin: 100px auto;
+	font-weight:normal;
+	width: 100%;
+	background-color: blue;
+	}
+
+	.table th{
+	border-bottom: 1px solid;
+	padding: 2px;
+	text-align: center;
+	}
+
+	.table td{
+	padding: 2px;
+	text-align: center;
+	}
+
+
+	#elixir{
+
+	display:flex;
+	display:inline-block;
+	text-align:center;
+	flex-direction:row;
+	border-color: black;
+	border-width: 2px;
+	width: 150px;
+	height: 240px;
+	margin-bottom: 10px;
+	background:white;
+	margin-left: 100px;
+	border-radius:10px;
+	padding:10px;
+	font-size: 12px;
+	justify-content:center;
+/*	font-color:auto;*/
+	position:relative;
+	vertical-align:bottom;
+	margin-bottom: 10px;
+/*	box-sizing:border-box;*/
+	margin-top:40px;
+	font-size: 16px;
+
+
+
+	}
+
+
+
