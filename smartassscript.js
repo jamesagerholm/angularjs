@@ -5,7 +5,7 @@ $(document).ready(function(){
 $(".list").hide('slow');
 
 $("p, h2, li").mouseover(function(){
-    $(this).css("color","blue");
+    $(this).css("color","white");
 });  
 
 
